@@ -13,22 +13,22 @@ class Junlin:
 
 
 me = Junlin(
-    first_name="Liu",
-    last_name="Junlin",
+    first_name="Junlin",
+    last_name="Liu",
     website="Domain.Hack",
     github="https://github.com/NoCLin",
     education="Zhejiang University / Software Engineering",
     skills=["Python", "JavaScript", "Java"],
     hobbies=[i for i in "💻🏃📷🏸🎮"],
 )
-me.__dict__["website"] = f"http://{me.first_name}.{me.last_name[:4]}.{me.last_name[4:]}".lower()
+me.__dict__["website"] = f"http://{me.first_name}.{me.first_name[:4]}.{me.first_name[4:]}".lower()
 
 print(me)
 
 assert me.__str__() == """
 {
-  "first_name": "Liu",
-  "last_name": "Junlin",
+  "first_name": "Junlin",
+  "last_name": "Liu",
   "website": "http://liu.junl.in",
   "github": "https://github.com/NoCLin",
   "education": "Zhejiang University / Software Engineering",

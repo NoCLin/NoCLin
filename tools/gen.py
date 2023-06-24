@@ -50,6 +50,7 @@ if __name__ == '__main__':
     text = ""
 
     text += execute("cat welcome.txt")
+    text += execute("cat about.html")
     text += execute(CMD_LIST_POSTS)
     text += execute("date")
     text = "<pre>" + text + "</pre>"

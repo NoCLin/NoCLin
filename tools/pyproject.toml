@@ -1,0 +1,14 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "mba", email = "mba@host.local"},
+]
+dependencies = [
+    "markdown>=3.4.3",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
